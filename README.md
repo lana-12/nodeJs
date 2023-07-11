@@ -5,7 +5,7 @@
 
 Installation en locale
 
-Si vous souhaitez installer l'application en local, assurez-vous d'avoir installé [git][https://git-scm.com/downloads] et [nodejs](https://nodejs.org/en)
+Si vous souhaitez installer l'application en local, assurez-vous d'avoir installé [git](https://git-scm.com/downloads) et [nodejs](https://nodejs.org/en)
 
 Pour récupérer et installer le projet, placez-vous sur un dossier de travail et tapez les commandes suivantes en ligne de commande :
 

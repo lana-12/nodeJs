@@ -53,6 +53,41 @@
             "cat": "Prioritaire",
             "done": true,
             "user_id": 4
+        },
+        {
+            "id": 6,
+            "title": "Faire les vitres",
+            "cat": "Important",
+            "done": true,
+            "user_id": 3
+        },
+        {
+            "id": 7,
+            "title": "Nettoyer le jardin",
+            "cat": "Urgent",
+            "done": false,
+            "user_id": 2
+        },
+        {
+            "id": 8,
+            "title": "Promener les chiens ",
+            "cat": "Prioritaire",
+            "done": true,
+            "user_id": 3
+        },
+        {
+            "id": 9,
+            "title": "Nettoyer la piscine",
+            "cat": "Prioritaire",
+            "done": false,
+            "user_id": 3
+        },
+        {
+            "id": 10,
+            "title": "Nettoyer la voiture",
+            "cat": "Urgent",
+            "done": true,
+            "user_id": 1
         }
     ]
 }

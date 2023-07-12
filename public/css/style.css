@@ -1,4 +1,13 @@
 body {
-    background: red;
-    color: white;
+    background: #908c8c;
+    color: rgb(20, 2, 2);
+}
+
+#tasksDone {
+    color: red;
+    border: 2px solid black;
+}
+
+#tasksPending{
+    color: #ffff;
 }

@@ -1,0 +1,58 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Ange"
+        },
+        {
+            "id": 2,
+            "name": "Mael"
+        },
+        {
+            "id": 3,
+            "name": "Hamza"
+        },
+        {
+            "id": 4,
+            "name": "Virginie"
+        }
+    ],
+
+    "tasks": [
+        {
+            "id": 1,
+            "title": "Faire le ménage",
+            "cat": "Urgent",
+            "done": false,
+            "user_id": 2
+        },
+        {
+            "id": 2,
+            "title": "Faire la vaiselle",
+            "cat": "Prioritaire",
+            "done": true,
+            "user_id": 1
+        },
+        {
+            "id": 3,
+            "title": "Faire le plein d'essence",
+            "cat": "Important",
+            "done": false,
+            "user_id": 3
+        },
+        {
+            "id": 4,
+            "title": "Faire les courses",
+            "cat": "Urgent",
+            "done": true,
+            "user_id": 4
+        },
+        {
+            "id": 5,
+            "title": "Faire une machine",
+            "cat": "Prioritaire",
+            "done": true,
+            "user_id": 4
+        }
+    ]
+}

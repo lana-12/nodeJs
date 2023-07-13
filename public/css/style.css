@@ -3,11 +3,30 @@ body {
     color: rgb(20, 2, 2);
 }
 
-#tasksDone {
-    color: red;
-    border: 2px solid black;
+/* #tasksDone {
+    color: #000;
+    border: 2px solid blue;
+    margin-top: 20px;
+    padding-left: 20px;
 }
 
 #tasksPending{
     color: #ffff;
+    border: 2px solid red;
+    margin-top: 20px;
+    padding-left: 20px;
+} */
+
+.done{
+    color: #000;
+    border: 2px solid blue;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.pending {
+    color: #ffff;
+    border: 2px solid red;
+    margin-top: 20px;
+    padding-left: 20px;
 }

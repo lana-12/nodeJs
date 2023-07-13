@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Document</title>
+  <title>Node</title>
 </head>
 
   <body>
 
     <h1>Liste des tâches</h1>
+
+    <a href="/task/create">New Task</a>
+    
     <section id="listTasks">
      
+      <div id="tasksDone"></div>
+      <div id="tasksPending"></div>
 
     </section>
 
-    <div id="tasksDone"></div>
-    <div id="tasksPending"></div>
-
+    
+    <h2>Sélectionnez un utilisateur</h2>
     <select name="userSelect" id="userSelect"></select>
+
     <div id="taskUser">
-      
+        <div id="tasksUserDone" class=""></div>
+        <div id="tasksUserPending" class=""></div>
     </div>
 
     

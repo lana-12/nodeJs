@@ -51,7 +51,7 @@
             "id": 5,
             "title": "Faire une machine",
             "cat": "Prioritaire",
-            "done": true,
+            "done": false,
             "user_id": 4
         },
         {
@@ -65,7 +65,7 @@
             "id": 7,
             "title": "Nettoyer le jardin",
             "cat": "Urgent",
-            "done": false,
+            "done": true,
             "user_id": 2
         },
         {
@@ -86,8 +86,22 @@
             "id": 10,
             "title": "Nettoyer la voiture",
             "cat": "Urgent",
-            "done": true,
+            "done": false,
             "user_id": 1
         }
-    ]
+    ],
+        "cats":
+        [
+            {
+                "name": "Urgent"
+            },
+            {
+                "name": "Prioritaire"
+            },
+            {
+                "name": "Important"
+            }
+            
+        ]
+    
 }

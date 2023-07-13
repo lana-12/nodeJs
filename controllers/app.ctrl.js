@@ -1,5 +1,5 @@
 const { resolve } = require('path');
-const { users, tasks } = require("../db/bdd.json")
+const { users, tasks, cats } = require("../db/bdd.json")
 
 
 //Route home
@@ -8,6 +8,7 @@ exports.homeCtrl = (req, res) => {
 
     res.sendFile(resolve('public', 'home.html'));
 };
+
 
 // list Tasks
 exports.tasksListCtrl = (req, res) => {
@@ -26,6 +27,15 @@ exports.userSelectCtrl = (req, res) => {
 };
 
 
+// Selected cat
+exports.catsListCtrl = (req, res) => {
+    // Connexion à la BDD
+    // Récupération des livres
+    // Vérification de la cnx   
+    res.json(cats);
+};
+
+
 
 // Selected user by id
 exports.userIdCtrl = (req, res) => {
@@ -38,7 +48,18 @@ exports.userIdCtrl = (req, res) => {
     res.json(filterTasks);
 }
 
+//Route create
+exports.taskCreateCtrl = (req, res) => {
+    res.sendFile(resolve('public', 'createTask.html'));
+};
 
+
+exports.createCtrl = (req, res) => {
+    const newTask = req.body;
+    console.log(newTask);
+
+    res.end();
+};
 
 //Function
 

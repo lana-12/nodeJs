@@ -24,70 +24,70 @@
             "title": "Faire le ménage",
             "cat": "Urgent",
             "done": false,
-            "user_id": 2
+            "userId": 2
         },
         {
             "id": 2,
             "title": "Faire la vaiselle",
             "cat": "Prioritaire",
             "done": true,
-            "user_id": 1
+            "userId": 1
         },
         {
             "id": 3,
             "title": "Faire le plein d'essence",
             "cat": "Important",
             "done": false,
-            "user_id": 3
+            "userId": 3
         },
         {
             "id": 4,
             "title": "Faire les courses",
             "cat": "Urgent",
             "done": true,
-            "user_id": 4
+            "userId": 4
         },
         {
             "id": 5,
             "title": "Faire une machine",
             "cat": "Prioritaire",
             "done": false,
-            "user_id": 4
+            "userId": 4
         },
         {
             "id": 6,
             "title": "Faire les vitres",
             "cat": "Important",
             "done": true,
-            "user_id": 3
+            "userId": 3
         },
         {
             "id": 7,
             "title": "Nettoyer le jardin",
             "cat": "Urgent",
             "done": true,
-            "user_id": 2
+            "userId": 2
         },
         {
             "id": 8,
             "title": "Promener les chiens ",
             "cat": "Prioritaire",
             "done": true,
-            "user_id": 3
+            "userId": 3
         },
         {
             "id": 9,
             "title": "Nettoyer la piscine",
             "cat": "Prioritaire",
             "done": false,
-            "user_id": 3
+            "userId": 3
         },
         {
             "id": 10,
             "title": "Nettoyer la voiture",
             "cat": "Urgent",
             "done": false,
-            "user_id": 1
+            "userId": 1
         }
     ],
         "cats":

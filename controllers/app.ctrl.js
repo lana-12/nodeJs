@@ -1,11 +1,11 @@
 const { resolve } = require('path');
-const { users, tasks, cats } = require("../db/bdd.json")
+const { users, tasks, cats } = require("../db/bdd.json");
+const { randomUUID } = require('crypto');
+
 
 
 //Route home
 exports.homeCtrl = (req, res) => {
-
-
     res.sendFile(resolve('public', 'home.html'));
 };
 
@@ -39,38 +39,34 @@ exports.catsListCtrl = (req, res) => {
 
 // Selected user by id
 exports.userIdCtrl = (req, res) => {
-
-    console.log(req.params.id);
-
-    const filterTasks = tasks.filter(t => t.user_id == req.params.id)
-
-
+    // console.log(req.params.id);
+    const filterTasks = tasks.filter(t => t.userId == req.params.id)
     res.json(filterTasks);
 }
 
-//Route create
+
+//Route create Form
 exports.taskCreateCtrl = (req, res) => {
     res.sendFile(resolve('public', 'createTask.html'));
 };
 
 
+//Je n'y suis pas arrivée
+//Create task 
 exports.createCtrl = (req, res) => {
-    const newTask = req.body;
-    console.log(newTask);
-
-    res.end();
+    // const newTask = req.body;
+    // console.log(newTask);
+    // newTask.id = randomUUID();
+    // newTask.done= false;
+    // tasks.push(newTask);
+    // updateJSON();
+    // res.end();
 };
 
 //Function
-
 function updateJSON() {
-
     writeFileSync(
-
         resolve('db', 'bbd.json'),
-
         JSON.stringify({ tasks }, null, 2)
-
     );
-
 }

@@ -7,6 +7,7 @@ const appRoutes = require('./app.routes');
 router.use(appRoutes);
 // router.use(apiRoutes);
 
+// Redirection routing
 router.get('*', (req, res) => res.redirect('/home'));
 
 module.exports = router;

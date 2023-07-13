@@ -17,7 +17,7 @@ router.get('/tasksList', tasksListCtrl);
 router.get('/usersList', userSelectCtrl);
 router.get('/userSelect/:id', userIdCtrl);
 router.get('/task/create', taskCreateCtrl);
-router.post('/task/create', createCtrl);
+router.post('/create', createCtrl);
 router.get('/task/catsList', catsListCtrl);
 
 

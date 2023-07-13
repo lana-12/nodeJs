@@ -9,19 +9,24 @@
 
   <body>
 
-    <h1>Liste des tâches</h1>
+    <h1>Todolist</h1>
 
-    <a href="/task/create">New Task</a>
+    <a href="/task/create" alt="créer une nouvelle tâche" title="Créer une nouvelle tâche">New Task</a>
     
+<!--
     <section id="listTasks">
-     
       <div id="tasksDone"></div>
       <div id="tasksPending"></div>
-
     </section>
-
+-->
     
-    <h2>Sélectionnez un utilisateur</h2>
+    <h2>Vous pouvez sélectionner un Utilisateur</h2>
+    
+    <div class="flexP">
+      <p>En bleu : Faite</p>
+      <p>En rouge : Pas faite</p>
+    </div>
+
     <select name="userSelect" id="userSelect"></select>
 
     <div id="taskUser">
